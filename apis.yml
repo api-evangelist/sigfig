@@ -1,8 +1,24 @@
 aid: sigfig
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sigfig.png
 name: SigFig
-description: 'SigFig is a company surfaced as a portfolio company of bain-capital-ventures, dcm-ventures,
-  union-square-ventures and added to the API Evangelist network as a stub for enrichment. Sector: fintech.
-  This profile is a lead awaiting the enrichment pipeline.'
+description: 'SigFig is a San Francisco-based wealth management technology (fintech) company. It
+  operates two lines: "Tandems," an enterprise platform that helps financial institutions deliver
+  intelligent, personalized financial advice, and "SigFig Wealth Management," a consumer robo-advisory
+  service that builds and manages tax-efficient, diversified investment portfolios tailored to each
+  client''s goals. SigFig is backed by Bain Capital Ventures, DCM Ventures, and Union Square Ventures.
+  As of the 2026-07-21 enrichment pass, SigFig publishes no public developer API, SDK, MCP server, or
+  developer portal; its site is served behind a WAF and the developer/docs/api subdomains do not resolve.'
 url: https://raw.githubusercontent.com/api-evangelist/sigfig/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Wealth Management
+- Robo-Advisor
+- Investing
+- Financial Services
+- WealthTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +46,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sigfig-domain-security.yml
+- type: LLMsTxt
+  url: llms/sigfig-llms.txt
 - type: Website
   url: https://sigfig.com/home/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

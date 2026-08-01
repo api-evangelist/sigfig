@@ -1,0 +1,18 @@
+# SigFig
+
+> SigFig is a San Francisco-based wealth management technology (fintech) company. It offers "Tandems," an enterprise platform that brings intelligent, personalized financial advice to financial institutions, and "SigFig Wealth Management," a consumer robo-advisory service that builds and manages tax-efficient, diversified investment portfolios. SigFig is backed by Bain Capital Ventures, DCM Ventures, and Union Square Ventures. As of this profile, SigFig publishes no public developer API, SDK, or developer portal.
+
+## Company
+- SigFig home: https://sigfig.com/home/
+
+## Products
+- Tandems (enterprise intelligent-advice platform): https://sigfig.com/home/
+- SigFig Wealth Management (consumer robo-advisor): https://sigfig.com/home/
+
+## Notes
+- No public API, OpenAPI/AsyncAPI specification, SDK, CLI, MCP server, or developer documentation was discoverable at the time of enrichment (2026-07-21).
+- Developer/docs/api/status subdomains (developer.sigfig.com, docs.sigfig.com, api.sigfig.com, status.sigfig.com) do not resolve.
+- The public website is protected by a WAF (Cloudflare), which returned 403 for /.well-known/ discovery probes; absence of positive discovery is not a confirmed absence of internal APIs.
+
+## APIs.json
+- Network profile: https://raw.githubusercontent.com/api-evangelist/sigfig/refs/heads/main/apis.yml
