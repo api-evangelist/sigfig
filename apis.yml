@@ -48,7 +48,7 @@ tags:
 - Wealth Management
 - Robo-Advisor
 - Investing
-- Financial-Services
+- Financial Services
 - WealthTech
 tags_raw:
 - Company
@@ -58,6 +58,7 @@ tags_raw:
 - Investing
 - Financial Services
 - WealthTech
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
